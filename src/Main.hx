@@ -62,7 +62,7 @@ class Main {
 		);
 	
 		// listen to the PORT given to us in the environment
-		var port : Int = Node.process.env.PORT!=null?Node.process.env.PORT : 3000;
+		var port = 3000.ifNull(Node.process.env.PORT);
 
 		app.listen(port, function() {
 			trace('Listening on ' + port);
