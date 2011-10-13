@@ -86,10 +86,6 @@ class Main {
 		  io.set('polling duration', 10);
 		});
 
-		app.get("/pashome", function (req, resp) {
-			
-		});
-
 		// respond to GET /home
 		app.get('/home', function(request : ExpressHttpServerReq, response : ExpressHttpServerResp) {
 
