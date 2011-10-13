@@ -1,4 +1,11 @@
 This is an haxe port of the defaut facebook application.
 It uses nodejs externals for haxe so that you can use your favorite lightspeed compiler with this awesome technology.
 
+You need to follow the facebook tutorial to create a new app and then compile this haxe code to replace the javascript one.
+
+You will need to install some haxe libraries:
+
+haxelib install nodejs
+haxelib install nodejs_externs
+
 Enjoy!
