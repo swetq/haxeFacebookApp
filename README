@@ -1,0 +1,4 @@
+This is an haxe port of the defaut facebook application.
+It uses nodejs externals for haxe so that you can use your favorite lightspeed compiler with this awesome technology.
+
+Enjoy!
